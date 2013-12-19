@@ -7,12 +7,21 @@
 //
 
 #import "MKLAppDelegate.h"
+#import "MKLViewController.h"
 
 @implementation MKLAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    self.window.backgroundColor = [UIColor whiteColor];
+    MKLViewController *mklViewController = [[MKLViewController alloc] init];
+    UINavigationController *navController = [[UINavigationController alloc] initWithRootViewController:mklViewController];
+    
+    [[self window] setRootViewController:navController];
+    [[self window] makeKeyAndVisible];
+    
     return YES;
 }
 							

@@ -13,11 +13,17 @@
 		346C8557185C4001009156DD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 346C8555185C4001009156DD /* InfoPlist.strings */; };
 		346C8559185C4001009156DD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 346C8558185C4001009156DD /* main.m */; };
 		346C855D185C4001009156DD /* MKLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 346C855C185C4001009156DD /* MKLAppDelegate.m */; };
-		346C855F185C4001009156DD /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 346C855E185C4001009156DD /* Default.png */; };
-		346C8561185C4001009156DD /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 346C8560185C4001009156DD /* Default@2x.png */; };
-		346C8563185C4001009156DD /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 346C8562185C4001009156DD /* Default-568h@2x.png */; };
 		346C8566185C4001009156DD /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 346C8564185C4001009156DD /* MainStoryboard.storyboard */; };
 		346C8569185C4001009156DD /* MKLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 346C8568185C4001009156DD /* MKLViewController.m */; };
+		346C8577185C44A3009156DD /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 346C8576185C44A3009156DD /* Default.png */; };
+		346C8579185C44A9009156DD /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 346C8578185C44A9009156DD /* Default@2x.png */; };
+		346C857B185C44B0009156DD /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 346C857A185C44B0009156DD /* Default-568h@2x.png */; };
+		3479BC75185EE1C100F7255C /* 1-4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3479BC71185EE1C100F7255C /* 1-4.jpg */; };
+		3479BC76185EE1C100F7255C /* 1-3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3479BC72185EE1C100F7255C /* 1-3.jpg */; };
+		3479BC77185EE1C100F7255C /* 1-2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3479BC73185EE1C100F7255C /* 1-2.jpg */; };
+		3479BC78185EE1C100F7255C /* 1-1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3479BC74185EE1C100F7255C /* 1-1.jpg */; };
+		3495F5741863356A000FECEF /* NSObject+WCZObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 3495F5731863356A000FECEF /* NSObject+WCZObject.m */; };
+		34F33368185DC0B50017B740 /* ScrollPageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 34F33367185DC0B50017B740 /* ScrollPageView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,12 +37,20 @@
 		346C855A185C4001009156DD /* MKLOfficalApp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MKLOfficalApp-Prefix.pch"; sourceTree = "<group>"; };
 		346C855B185C4001009156DD /* MKLAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MKLAppDelegate.h; sourceTree = "<group>"; };
 		346C855C185C4001009156DD /* MKLAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MKLAppDelegate.m; sourceTree = "<group>"; };
-		346C855E185C4001009156DD /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
-		346C8560185C4001009156DD /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
-		346C8562185C4001009156DD /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		346C8565185C4001009156DD /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		346C8567185C4001009156DD /* MKLViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MKLViewController.h; sourceTree = "<group>"; };
 		346C8568185C4001009156DD /* MKLViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MKLViewController.m; sourceTree = "<group>"; };
+		346C8576185C44A3009156DD /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = ../Default.png; sourceTree = "<group>"; };
+		346C8578185C44A9009156DD /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "../Default@2x.png"; sourceTree = "<group>"; };
+		346C857A185C44B0009156DD /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "../Default-568h@2x.png"; sourceTree = "<group>"; };
+		3479BC71185EE1C100F7255C /* 1-4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "1-4.jpg"; sourceTree = "<group>"; };
+		3479BC72185EE1C100F7255C /* 1-3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "1-3.jpg"; sourceTree = "<group>"; };
+		3479BC73185EE1C100F7255C /* 1-2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "1-2.jpg"; sourceTree = "<group>"; };
+		3479BC74185EE1C100F7255C /* 1-1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "1-1.jpg"; sourceTree = "<group>"; };
+		3495F5721863356A000FECEF /* NSObject+WCZObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+WCZObject.h"; sourceTree = "<group>"; };
+		3495F5731863356A000FECEF /* NSObject+WCZObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+WCZObject.m"; sourceTree = "<group>"; };
+		34F33366185DC0B50017B740 /* ScrollPageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScrollPageView.h; sourceTree = "<group>"; };
+		34F33367185DC0B50017B740 /* ScrollPageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScrollPageView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,12 +97,15 @@
 		346C8552185C4001009156DD /* MKLOfficalApp */ = {
 			isa = PBXGroup;
 			children = (
+				34F33364185DBDAB0017B740 /* ScrollPageView */,
 				346C855B185C4001009156DD /* MKLAppDelegate.h */,
 				346C855C185C4001009156DD /* MKLAppDelegate.m */,
 				346C8564185C4001009156DD /* MainStoryboard.storyboard */,
 				346C8567185C4001009156DD /* MKLViewController.h */,
 				346C8568185C4001009156DD /* MKLViewController.m */,
 				346C8553185C4001009156DD /* Supporting Files */,
+				3495F5721863356A000FECEF /* NSObject+WCZObject.h */,
+				3495F5731863356A000FECEF /* NSObject+WCZObject.m */,
 			);
 			path = MKLOfficalApp;
 			sourceTree = "<group>";
@@ -96,15 +113,28 @@
 		346C8553185C4001009156DD /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				3479BC71185EE1C100F7255C /* 1-4.jpg */,
+				3479BC72185EE1C100F7255C /* 1-3.jpg */,
+				3479BC73185EE1C100F7255C /* 1-2.jpg */,
+				3479BC74185EE1C100F7255C /* 1-1.jpg */,
+				346C857A185C44B0009156DD /* Default-568h@2x.png */,
+				346C8578185C44A9009156DD /* Default@2x.png */,
+				346C8576185C44A3009156DD /* Default.png */,
 				346C8554185C4001009156DD /* MKLOfficalApp-Info.plist */,
 				346C8555185C4001009156DD /* InfoPlist.strings */,
 				346C8558185C4001009156DD /* main.m */,
 				346C855A185C4001009156DD /* MKLOfficalApp-Prefix.pch */,
-				346C855E185C4001009156DD /* Default.png */,
-				346C8560185C4001009156DD /* Default@2x.png */,
-				346C8562185C4001009156DD /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		34F33364185DBDAB0017B740 /* ScrollPageView */ = {
+			isa = PBXGroup;
+			children = (
+				34F33366185DC0B50017B740 /* ScrollPageView.h */,
+				34F33367185DC0B50017B740 /* ScrollPageView.m */,
+			);
+			name = ScrollPageView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -117,6 +147,7 @@
 				346C8544185C4001009156DD /* Sources */,
 				346C8545185C4001009156DD /* Frameworks */,
 				346C8546185C4001009156DD /* Resources */,
+				346C856F185C4022009156DD /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -160,14 +191,34 @@
 			buildActionMask = 2147483647;
 			files = (
 				346C8557185C4001009156DD /* InfoPlist.strings in Resources */,
-				346C855F185C4001009156DD /* Default.png in Resources */,
-				346C8561185C4001009156DD /* Default@2x.png in Resources */,
-				346C8563185C4001009156DD /* Default-568h@2x.png in Resources */,
 				346C8566185C4001009156DD /* MainStoryboard.storyboard in Resources */,
+				346C8577185C44A3009156DD /* Default.png in Resources */,
+				346C8579185C44A9009156DD /* Default@2x.png in Resources */,
+				346C857B185C44B0009156DD /* Default-568h@2x.png in Resources */,
+				3479BC75185EE1C100F7255C /* 1-4.jpg in Resources */,
+				3479BC76185EE1C100F7255C /* 1-3.jpg in Resources */,
+				3479BC77185EE1C100F7255C /* 1-2.jpg in Resources */,
+				3479BC78185EE1C100F7255C /* 1-1.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		346C856F185C4022009156DD /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export  CODESIGN_ALLOCATE=/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate\nif [ \"${PLATFORM_NAME}\" == \"iphoneos\" ] || [ \"${PLATFORM_NAME}\" == \"ipados\" ]; then\n/Applications/Xcode.app/Contents/Developer/iphoneentitlements/gen_entitlements.py \"my.company.${PROJECT_NAME}\"  \"${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}/${PROJECT_NAME}.xcent\";\ncodesign -f -s \"iPhone Developer\" --entitlements  \"${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}/${PROJECT_NAME}.xcent\"  \"${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}/\"\nfi";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		346C8544185C4001009156DD /* Sources */ = {
@@ -177,6 +228,8 @@
 				346C8559185C4001009156DD /* main.m in Sources */,
 				346C855D185C4001009156DD /* MKLAppDelegate.m in Sources */,
 				346C8569185C4001009156DD /* MKLViewController.m in Sources */,
+				34F33368185DC0B50017B740 /* ScrollPageView.m in Sources */,
+				3495F5741863356A000FECEF /* NSObject+WCZObject.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -211,7 +264,7 @@
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -239,7 +292,7 @@
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				COPY_PHASE_STRIP = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
@@ -255,6 +308,7 @@
 		346C856D185C4001009156DD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MKLOfficalApp/MKLOfficalApp-Prefix.pch";
 				INFOPLIST_FILE = "MKLOfficalApp/MKLOfficalApp-Info.plist";
@@ -266,6 +320,7 @@
 		346C856E185C4001009156DD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MKLOfficalApp/MKLOfficalApp-Prefix.pch";
 				INFOPLIST_FILE = "MKLOfficalApp/MKLOfficalApp-Info.plist";
@@ -293,6 +348,7 @@
 				346C856E185C4001009156DD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

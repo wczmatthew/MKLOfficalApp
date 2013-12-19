@@ -7,7 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+@class ScrollPageView;
 
 @interface MKLViewController : UIViewController
+
+@property (strong, nonatomic) ScrollPageView *scrollPageView;
 
 @end
